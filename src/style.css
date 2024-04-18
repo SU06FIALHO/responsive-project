@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #42669b;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+    --font-family-for-all: roboto, serif;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  font-family: var(--font-family-for-all);
+}
+
+h1 {
+  font-size: 90px;
+}
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+    opacity: 0.7;
+}
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  margin: 25px 0 25px 0;
+  padding: 5px;
+}
+
+p {
+  background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.info-section a {
+  margin: 25px;
+    border-radius: 15px;
+    padding: 22px 18px;
+    text-decoration: none;
+    
+}
+.about-me-btn {
+  background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: var(--secondary-color)
+    
+}
+.contact-btn {
+  color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    
+}
+
+.homepage-click {
+  color: var(--primary-color);
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+.about-info {
+  display: flex;
+  margin: 30px 0;
+}
+.about-info p{
+  margin: 10px;
+}
+
+
+ a.link-email {
+  display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+a.link-email:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
