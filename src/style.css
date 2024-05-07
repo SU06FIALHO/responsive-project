@@ -5,11 +5,17 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
-  margin: 100px 0 100px 0;
+
+.hero {
+font-family: "barlow-condensed-light";
+  font-weight: 300;
+  font-style: normal;
   background-color: var(--default-color);
-  
-  
+  margin-top: 55px;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+
+
 }
 
 
@@ -52,11 +58,6 @@ p {
   font-style: normal;
 }
 
-.barlow-condensed-light {
-  font-family: "Barlow Condensed", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
 
 .navigation-links {
   display: flex;
