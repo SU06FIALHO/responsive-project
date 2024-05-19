@@ -94,30 +94,24 @@ p {
   }
 }
 
-.about-hero {
+.content-container {
   padding: 110px 80px;
 }
 
-.about-hero h1{
+.content-container h1{
 font-size: 64px;
 line-height: 80px;
 }
 
-.about-hero h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-hero-content {
+.content {
   margin: 30px;
 
 }
 
-.about-hero img {
-  width: 400px;
-  border-radius: 20px;
-  
-  
 
-}
 
