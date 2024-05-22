@@ -23,7 +23,7 @@ h2 {
   font-size: 50px;
 }
 
-h4 {
+h3 {
   font-size: 70px;
 }
 p {
@@ -135,7 +135,7 @@ footer .social-media-links a:hover {
   
   text-align: center;
   color: var(--secondary-font-color);
-  padding: 110px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -222,7 +222,7 @@ footer .social-media-links a:hover {
 }
 
 .content-container {
-  padding: 100px 80px;
+  padding: 60px 20px;
 }
 
 .content h1{
